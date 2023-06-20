@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.HeroBanner{
+  background-color: #c4c4c4;
+}
+.HeroBanner > .container{
+  padding: 80px;
+  height: 500px;
+  padding-top: 80px;
+}
+.HeroBanner > .container .text1{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #272727;
+  text-transform: uppercase;
+}
+.HeroBanner > .container .text2{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.HeroBanner > .container .text3{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 120px;
+  color: #ffffff;
+  text-transform: uppercase; 
+}
+.HeroBanner > .container button{
+  padding: 10px 40px;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(255, 30, 0);
+  border: none;
+  border-radius: 10px;
+}
+
+.HeroBanner > .container .text4{
+  position: absolute;
+  right: 0;
+  text-align: right;
+  margin-right: 50px;
+}
+.HeroBanner > .container .text4 .Description{
+  font-size: 12px;
+  font-weight: 700;
+  color: #0f0d18;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.HeroBanner > .container .text4 .description{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #575757;
+  text-transform: uppercase;
+}
+.HeroBanner > img{
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 36%;
+  right: 50%;
+  height: 400px;
+  width: 400px;
+}

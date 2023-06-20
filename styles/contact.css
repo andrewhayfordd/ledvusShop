@@ -1,0 +1,151 @@
+.Contact > .container .banner{
+  width: 100%;
+  background-color: #c4c4c4;
+  height: 400px;
+}
+.Contact > .container .banner{
+  padding: 70px;
+}
+.Contact > .container .banner h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.Contact > .container .banner p{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Contact > .container main{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contact > .container main .container{
+  padding: 40px;
+}
+.Contact > .container main .container .head{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(5, 5, 88);
+  padding: 10px;
+}
+.Contact > .container main .container div form input{
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  border: solid #c4c4c4 1px;
+  outline: none;
+  padding: 10px;
+}
+.Contact > .container main .container div form .inputL{
+  width: 620px;
+}
+.Contact > .container main .container div form textarea{
+  width: 620px;
+  margin: 10px;
+  border: solid #c4c4c4 1px;
+  padding: 10px;
+  outline: none;
+}
+.Contact > .container main .container div form button{
+  padding: 10px 30px;
+  color: #fff;
+  background-color: rgb(0, 0, 112);
+  border: none;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 10px;
+}
+.Contact > .container main .contact_info{
+  padding: 30px;
+  box-shadow: 0px 0px 50px -20px #000;
+  border-radius: 10px;
+  width: 500px;
+  height: 320px;
+  margin: 60px;
+}
+
+.Contact > .container main .contact_info .head{
+  font-size: 20px;
+  color: rgb(3, 3, 44);
+  font-family: sans-serif;
+  font-weight: 100;
+  padding: 15px;
+  padding-bottom: 33px;
+  border-bottom: solid #c4c4c4 1px;
+}
+.Contact > .container main .contact_info .details li{
+  list-style-type: none;
+  margin: 30px;
+}
+
+.Contact > .socials{
+  position: fixed;
+  top: 35%;
+  bottom: 50%;
+  z-index: 10;
+  left: 0;
+}
+.Contact > .socials li{
+  list-style-type: none;
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+  background-color: #757272;
+  margin-top: 2px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contact > .socials li p{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  padding-right: 20px;
+  display: none;
+  transition: 5s;
+}
+.Contact > .socials li:hover{
+  width: 180px;
+}
+.Contact > .socials li:hover p{
+  display: flex;
+}
+.Contact > .socials li i{
+  position: relative;
+  left: 8px;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 48px;
+}
+.Contact > .socials .facebook{
+  background-color: #36528d;
+}
+.Contact > .socials .twitter{
+  background-color: #429ee4;
+}
+.Contact > .socials .instagram{
+  background-color: #e40079;
+}
+.Contact > .socials .whatsapp{
+  background-color: #009e79;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+.Ffooter > .container{
+    background-color: #4b4b4b;
+    padding: 30px;
+    margin-top: 90px;
+}
+.Ffooter > .container .menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: solid #979797 0.1px;
+}
+.Ffooter > .container .menu li{
+    list-style-type: none;
+    font-size: 18px;
+    color: #c2c2c2;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+.Ffooter > .container .menu li:hover{
+    color: #e6e6e6;
+}
+
+.Ffooter > .container .Footer-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.Ffooter > .container .Footer-footer .copy-right{
+    font-family: sans-serif;
+    color: #979797;
+}
+
+.Ffooter > .container .Footer-footer .socials{
+    display: flex;
+    gap: 20px;
+}
+.Ffooter > .container .Footer-footer .socials li{
+    list-style-type: none;
+    color: #979797;
+    font-size: 25px;
+    transition: 0.4s;
+}
+.Ffooter > .container .Footer-footer .socials li:hover{
+    color: #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+.Navbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4c4c4;
+    height: 20px;
+}
+.Navbar > .navContent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Navbar > .navContent .navB{
+    display: flex;
+    gap: 20px;
+}
+.Navbar > .navContent .navB li{
+    list-style-type: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.logo{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+.Navbar > div .carticon{
+    border: none;
+    background: transparent;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+.Navbar > div .carticon{
+    font-size: 30px;
+    color: #fff;
+}
+.Navbar > div button .cart-itemqty{
+    background-color: rgb(226, 0, 0);
+    border-radius: 50%;
+    font-size: 11px;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+}
+
+.Navbar.active{
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 8px 3px rgba(0 0 0 /6%);
+    width: 100%;
+    z-index: 10;
+    background-color: #c4c4c4;
+}
